@@ -3,7 +3,7 @@ st = "this is a1  string with double    spaces "
 st = st.replace("    ","   ")
 print(st)
 
-##from random import randint
+from random import randint
 a = (1,2,3,3,5)
 print(randint(0,9),randint(0,9),randint(0,9),randint(0,9),sep='')
 
