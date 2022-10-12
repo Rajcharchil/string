@@ -59,5 +59,52 @@ elif marks >= 50:
     grade = "D"
 else:
     grade = "F"  
-    print('your grade is '+ grade)                  
+    print('your grade is '+ grade)
+    
+
+    from token import ISTERMINAL
+
+
+i = 1
+
+while i<=50:
+    print(i)
+    i = i + 9
+
+
+    #print list
+l = [1,2,3]
+for item in l:
+    print(item)
+
+## while loop
+for i in range (10):
+    if i%2!=0:
+        continue
+    print(i)    
+
+##
+i = 0
+while i<5:
+    print("charchil")
+    i = i+1
+
+##
+fruit = ['banana','mango','pineapple','orange','pomigranet']
+i = 0
+while i<len(fruit):
+    print(fruit[i])
+    i = i+1
+
+###
+fruit = ['banana','mango','berry','gauava']
+i = 0
+for item in fruit:
+    print(item)
+    
+
+##
+for i in range (1,21,1):
+     print(i)
+
     
